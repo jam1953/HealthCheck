@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity_steven"></activity>
-    </application>
+        <activity android:name=".Main2Activity"></activity>
+  </application>
 
 </manifest>
