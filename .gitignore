@@ -8,3 +8,25 @@
 /build
 /captures
 .externalNativeBuild
+# Build/Maven #
+###############
+**/target/
+# Eclipse #
+###########
+.project
+.classpath
+.settings
+**/bin/
+.metadata/
+# IntelliJ #
+############
+.idea/
+*.iml
+
+gradle
+.DS_Store
+.externalNativeBuild
+app/build/
+local.properties
+captures
+/out/
