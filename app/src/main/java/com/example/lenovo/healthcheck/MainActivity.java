@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    public voic openActivity2(){
+    public void openActivity2(){
 
         Intent intent = new Intent( packageContext: this, activity_2.class);
         startActivity(intent);
