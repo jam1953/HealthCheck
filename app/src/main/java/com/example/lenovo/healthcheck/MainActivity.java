@@ -24,13 +24,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                openActivity2();
+                openLoginActivity();
             }
         });
     }
-    public void openActivity2(){
+    public void openLoginActivity(){
 
-        Intent intent = new Intent( packageContext: this, activity_2.class);
+        Intent intent = new Intent(  this, LoginActivity.class);
         startActivity(intent);
 
     }
