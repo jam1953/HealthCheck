@@ -6,4 +6,111 @@
     android:layout_height="match_parent"
     tools:context=".JoeyMaldonado">
 
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="Directory"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/splN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/spl"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginStart="17dp"
+        android:text="Suicide Prevention Lifeline"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        app:layout_constraintBottom_toBottomOf="@+id/splN"
+        app:layout_constraintEnd_toStartOf="@+id/splN"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/splN" />
+
+    <TextView
+        android:id="@+id/ice2"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center_vertical"
+        android:text="ICE 2"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ice2N"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ice1"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center_vertical"
+        android:text="RIT Cares"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ice1N"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ice2N"
+        android:layout_width="154dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="149dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autoLink="phone"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="605–475–6960"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ice1N" />
+
+    <TextView
+        android:id="@+id/ice1N"
+        android:layout_width="154dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="52dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autoLink="phone"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="727-461-0099"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        app:layout_constraintBottom_toTopOf="@+id/ice2N"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splN" />
+
+    <TextView
+        android:id="@+id/splN"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="52dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autoLink="phone"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="1-800-273-8255"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        app:layout_constraintBottom_toTopOf="@+id/ice1N"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spl"
+        app:layout_constraintTop_toBottomOf="@+id/Header" />
+
 </android.support.constraint.ConstraintLayout>
