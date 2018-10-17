@@ -27,7 +27,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonS2-M"
         android:layout_width="103dp"
         android:layout_height="48dp"
         android:layout_marginStart="8dp"
@@ -55,7 +55,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="5dp"
         android:clipToPadding="false"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/buttonS2-M"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3">
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:checked="true"
                 android:text="Medication #1 @ 7:30 am"
-                android:textSize="18sp" />
+                android:textSize="24sp" />
 
             <Switch
                 android:id="@+id/switch3"
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:checked="true"
                 android:text="Medication #4 @ 7:30 am"
-                android:textSize="18sp" />
+                android:textSize="24sp" />
 
             <Switch
                 android:id="@+id/switch2"
@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:checked="true"
                 android:text="Medication #2 @ 11:15 am"
-                android:textSize="18sp" />
+                android:textSize="24sp" />
 
             <Switch
                 android:id="@+id/switch5"
@@ -95,7 +95,7 @@
                 android:layout_height="wrap_content"
                 android:checked="true"
                 android:text="Medication #3 @ 2:45 pm"
-                android:textSize="18sp" />
+                android:textSize="24sp" />
 
             <Switch
                 android:id="@+id/switch4"
@@ -103,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:checked="true"
                 android:text="Medication #4 @ 10:20 pm"
-                android:textSize="18sp" />
+                android:textSize="24sp" />
 
         </LinearLayout>
     </ScrollView>
